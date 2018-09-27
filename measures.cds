@@ -50,20 +50,10 @@ context Measures {
 			description: '{i18n>baseUnitDescription}'
 		);
 
-		entity Lengths: CodeList {
-			key code: Length;
-		}
-		entity Areas: CodeList {
-			key code: Area;
-		}
-		entity Volumes: CodeList {
-			key code: Volume;
-		}
-		entity Weights: CodeList {
-			key code: Weight;
-		}
-		entity Bases: CodeList {
-			key code: Base;
-		}
+		entity Lengths: CodeList { key code: Length; }
+		entity Areas: CodeList { key code: Area; }
+		entity Volumes: CodeList { key code: Volume; }
+		entity Weights: CodeList { key code: Weight; }
+		entity Bases: CodeList { key code: Base; }
 	}
 }

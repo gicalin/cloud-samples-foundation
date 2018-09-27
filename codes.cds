@@ -2,17 +2,17 @@ namespace clouds.foundation;
 
 type Currency: String(3) @(
 	title: '{i18n>currencyCode}',
-	description: '{i18n>currencyCodeDescription}',
+	description: '{i18n>currencyCodeDescription}'
 );
 
 type Country: String(3) @(
 	title: '{i18n>countryCode}',
-	description: '{i18n>countryCodeDescription}',
+	description: '{i18n>countryCodeDescription}'
 );
 
 type Language: String(2) @(
 	title: '{i18n>languageCode}',
-	description: '{i18n>languageCodeDescription}',
+	description: '{i18n>languageCodeDescription}'
 );
 
 type Locale: String(6) @(

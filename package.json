@@ -1,13 +1,17 @@
 {
 	"name": "@sap/cloud-samples-foundation",
 	"description": "Reuse package containing common business types like country, currency, unit of measure,...",
-	"version": "1.0.0",
-	"devDependencies": {
-		"@sap/cds": "2.3.1"
+	"version": "1.1.0",
+	"dependencies": {
+		"@sap/cds": ">=2.9.1"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/SAP/cloud-samples-foundation.git"
 	},
+	"files": [
+		"_i18n",
+		"**/*.cds"
+	],
 	"private": true
 }
